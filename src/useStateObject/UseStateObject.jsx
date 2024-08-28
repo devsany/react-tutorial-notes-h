@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 const UseStateObject = () => {
   const [name, setName] = useState({ firstName: "", lastName: "" });
+
+  //here first we have to spread the object then changes got happen
   return (
     <div>
       <input
