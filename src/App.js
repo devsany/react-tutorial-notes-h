@@ -13,6 +13,11 @@ import CounterThree from "./CounterThree";
 import CounterFour from "./CounterFour";
 import CounterFive from "./CounterFive";
 import CounterSix from "./CounterSix";
+// import CompA from "./component(useContext)/CompA";
+import CompA from "./complex/CompA";
+import FetchingData from "./fetch/FetchingData";
+import FetchingData1 from "./fetch/FetchingData1";
+import Main from "./useCallback/Main";
 
 function App() {
   return (
@@ -29,7 +34,13 @@ function App() {
       {/* <CounterThree /> */}
       {/* <CounterFour /> */}
       {/* <CounterFive /> */}
-      <CounterSix />
+      {/* <CounterSix /> */}
+
+      {/* <CompA  /> */}
+      {/* <CompA /> */}
+      {/* <FetchingData /> */}
+      {/* <FetchingData1 /> */}
+      <Main />
     </div>
   );
 }
