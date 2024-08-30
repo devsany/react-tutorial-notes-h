@@ -1,46 +1,23 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Hookcounter from "./useState/Hookcounter";
-import UseStateObject from "./useStateObject/UseStateObject";
-import UseStateArray from "./useStateArray/UseStateArray";
-import UseEffectCondition from "./useEffect/UseEffectCondition";
-import Mouse from "./mouseMovement/Mouse";
-import Show from "./Show";
-import UseEffectCounter from "./Lecture11/UseEffectCounter";
-import CounterOne from "./CounterOne";
-import CounterTwo from "./CounterTwo";
-import CounterThree from "./CounterThree";
-import CounterFour from "./CounterFour";
-import CounterFive from "./CounterFive";
-import CounterSix from "./CounterSix";
-// import CompA from "./component(useContext)/CompA";
-import CompA from "./complex/CompA";
-import FetchingData from "./fetch/FetchingData";
-import FetchingData1 from "./fetch/FetchingData1";
-import Main from "./useCallback/Main";
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      {/* <Hookcounter/> */}
-      {/* <UseStateObject /> */}
-      {/* <UseStateArray /> */}
-      {/* <UseEffectCondition /> */}
-      {/* <Mouse /> */}
-      {/* <Show /> */}
-      {/* <UseEffectCounter /> */}
-      {/* <CounterOne /> */}
-      {/* <CounterTwo /> */}
-      {/* <CounterThree /> */}
-      {/* <CounterFour /> */}
-      {/* <CounterFive /> */}
-      {/* <CounterSix /> */}
-
-      {/* <CompA  /> */}
-      {/* <CompA /> */}
-      {/* <FetchingData /> */}
-      {/* <FetchingData1 /> */}
-      <Main />
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
